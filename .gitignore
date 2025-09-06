@@ -1,0 +1,19 @@
+# Envs
+.venv/
+venv/
+
+# Data & models
+/data/**
+/models/**
+!/data/.gitkeep
+!/models/.gitkeep
+
+# Caches
+__pycache__/
+*.pyc
+*.pyo
+.cache/
+.huggingface/
+
+# Logs
+logs/
